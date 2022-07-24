@@ -33,6 +33,7 @@ OpenApiResponse openApiResponse = JsonSerializer.Deserialize<OpenApiResponse>(op
 while (true)
 {
     Console.WriteLine("実行したいコマンドを入力してね");
+    Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine("1:メディア情報検索");
     Console.WriteLine("2:バージョン情報");
     Console.WriteLine("3:Apiサーバー情報");
